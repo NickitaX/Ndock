@@ -31,7 +31,7 @@ compile(name:'ndock-release', ext:'aar')
  * Done!
 
  Usage:
- * Initialise NDock object and pass root ViewGroup to constructor:
+ * Initialise NDock object and pass root ViewGroup to install method:
  ```java
          RelativeLayout main = (RelativeLayout) findViewById(R.id.main_layout);
          NDock dock = new NDock(getApplicationContext());
