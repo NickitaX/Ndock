@@ -24,6 +24,10 @@ public class NDock extends RelativeLayout {
     int resetHeight;
     boolean openMode = true;
 
+    public RelativeLayout getPanel(){
+        return panel;
+    }
+
     public void install(ViewGroup viewGroup) {
         setVisibility(GONE);
         this.target = viewGroup;
